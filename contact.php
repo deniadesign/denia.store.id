@@ -1,0 +1,2 @@
+<?php $title='Contact - DENIADESIGN'; include __DIR__.'/includes/header.php'; ?>
+<main class="container page"><h1>Contact</h1><p class="lead">Hubungi DENIADESIGN untuk pemesanan, kerja sama, atau pertanyaan produk.</p><a class="btn btn-success btn-lg" href="https://wa.me/<?= WA_NUMBER ?>" target="_blank">WhatsApp 083822941348</a><div class="mt-4 premium-card p-4"><p>Email: hello@deniadesign.id</p><p>Jam operasional: Senin-Sabtu 09.00-18.00 WIB</p></div></main><?php include __DIR__.'/includes/footer.php'; ?>
