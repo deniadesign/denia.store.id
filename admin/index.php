@@ -1,0 +1,2 @@
+<?php include '_header.php'; $counts=[]; foreach(['products','categories','banners','orders'] as $t){$counts[$t]=db()->query("SELECT COUNT(*) c FROM $t")->fetch()['c'];} ?>
+<h1>Dashboard Admin</h1><div class="row g-4"><?php foreach($counts as $k=>$v):?><div class="col-md-3"><div class="premium-card p-4"><h3><?=ucfirst($k)?></h3><p class="display-6"><?=$v?></p></div></div><?php endforeach;?></div><?php include '_footer.php'; ?>
